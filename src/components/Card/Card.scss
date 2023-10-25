@@ -1,0 +1,16 @@
+.card {
+  background-color: white;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 0.5rem 0.125rem gray;
+
+  --padding: 1rem 1.5rem;
+
+  display: flex;
+  flex-direction: column;
+  &__header {
+    flex: 0;
+  }
+  &__content {
+    flex: 1;
+  }
+}

@@ -1,0 +1,6 @@
+.card-header {
+  padding: var(--padding);
+  &:not(:last-child) {
+    border-bottom: 1px solid gainsboro;
+  }
+}

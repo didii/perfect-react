@@ -1,0 +1,19 @@
+.home {
+  padding: 1rem;
+  max-width: 780px;
+  margin: 0 auto;
+
+  &__title {
+    margin-bottom: 1rem;
+  }
+}
+
+.home-card {
+  & &__mini-header {
+    flex: 0;
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+    font-size: 80%;
+    color: gray;
+  }
+}
